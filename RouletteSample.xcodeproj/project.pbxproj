@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580C0B14CC4EAA800D22A5A8 /* Pods_RouletteSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B63D6502A1CA28393B9641B /* Pods_RouletteSample.framework */; };
+		8CC508052699D3DF00457351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC508042699D3DF00457351 /* AppDelegate.swift */; };
+		8CC5080E2699D3E100457351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC5080D2699D3E100457351 /* Assets.xcassets */; };
+		8CC508112699D3E100457351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC5080F2699D3E100457351 /* LaunchScreen.storyboard */; };
+		8CC508212699D4A800457351 /* RouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC508202699D4A800457351 /* RouletteViewController.swift */; };
+		8CC508242699E07E00457351 /* PieChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC508232699E07E00457351 /* PieChartManager.swift */; };
+		8CC50827269A086500457351 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC50826269A086500457351 /* UIColor+.swift */; };
+		8CC5082C269ABE4D00457351 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5082B269ABE4D00457351 /* SettingViewController.swift */; };
+		8CC5082F269AC1C400457351 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5082E269AC1C400457351 /* Router.swift */; };
+		8CC5083E269AC99A00457351 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5083D269AC99A00457351 /* UIViewController+.swift */; };
+		8CC50849269AD89900457351 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC50848269AD89900457351 /* Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B63D6502A1CA28393B9641B /* Pods_RouletteSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouletteSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC508012699D3DF00457351 /* RouletteSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouletteSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC508042699D3DF00457351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CC5080D2699D3E100457351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CC508102699D3E100457351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CC508122699D3E100457351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC508202699D4A800457351 /* RouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteViewController.swift; sourceTree = "<group>"; };
+		8CC508232699E07E00457351 /* PieChartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartManager.swift; sourceTree = "<group>"; };
+		8CC50826269A086500457351 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		8CC5082B269ABE4D00457351 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		8CC5082E269AC1C400457351 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8CC5083D269AC99A00457351 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		8CC50848269AD89900457351 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C20BE41A9259E6EB839CF534 /* Pods-RouletteSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouletteSample.debug.xcconfig"; path = "Target Support Files/Pods-RouletteSample/Pods-RouletteSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E7743374F3D9536A87FBFAB5 /* Pods-RouletteSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouletteSample.release.xcconfig"; path = "Target Support Files/Pods-RouletteSample/Pods-RouletteSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC507FE2699D3DF00457351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580C0B14CC4EAA800D22A5A8 /* Pods_RouletteSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594C0359E7B808B0BCD106FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C20BE41A9259E6EB839CF534 /* Pods-RouletteSample.debug.xcconfig */,
+				E7743374F3D9536A87FBFAB5 /* Pods-RouletteSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CC507F82699D3DF00457351 = {
+			isa = PBXGroup;
+			children = (
+				8CC508032699D3DF00457351 /* RouletteSample */,
+				8CC508022699D3DF00457351 /* Products */,
+				594C0359E7B808B0BCD106FE /* Pods */,
+				E4A7523C9B95DC4D8BF29C90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC508022699D3DF00457351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC508012699D3DF00457351 /* RouletteSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC508032699D3DF00457351 /* RouletteSample */ = {
+			isa = PBXGroup;
+			children = (
+				8CC508042699D3DF00457351 /* AppDelegate.swift */,
+				8CC5080D2699D3E100457351 /* Assets.xcassets */,
+				8CC5080F2699D3E100457351 /* LaunchScreen.storyboard */,
+				8CC508122699D3E100457351 /* Info.plist */,
+				8CC50844269ACE8B00457351 /* Model */,
+				8CC50846269ACE9200457351 /* ViewControllers */,
+				8CC50840269ACE6300457351 /* Router */,
+				8CC50842269ACE6E00457351 /* Extension */,
+				8CC5084C269AD8AB00457351 /* Utilities */,
+			);
+			path = RouletteSample;
+			sourceTree = "<group>";
+		};
+		8CC50840269ACE6300457351 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8CC5082E269AC1C400457351 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8CC50842269ACE6E00457351 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8CC5083D269AC99A00457351 /* UIViewController+.swift */,
+				8CC50826269A086500457351 /* UIColor+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8CC50844269ACE8B00457351 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CC508232699E07E00457351 /* PieChartManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CC50846269ACE9200457351 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CC5082B269ABE4D00457351 /* SettingViewController.swift */,
+				8CC508202699D4A800457351 /* RouletteViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8CC5084C269AD8AB00457351 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8CC50848269AD89900457351 /* Alert.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E4A7523C9B95DC4D8BF29C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B63D6502A1CA28393B9641B /* Pods_RouletteSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC508002699D3DF00457351 /* RouletteSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC508152699D3E100457351 /* Build configuration list for PBXNativeTarget "RouletteSample" */;
+			buildPhases = (
+				63A07290968A7FBC95DCF8FF /* [CP] Check Pods Manifest.lock */,
+				8CC507FD2699D3DF00457351 /* Sources */,
+				8CC507FE2699D3DF00457351 /* Frameworks */,
+				8CC507FF2699D3DF00457351 /* Resources */,
+				8CB4F81EFD937125B30CB2B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouletteSample;
+			productName = RouletteSample;
+			productReference = 8CC508012699D3DF00457351 /* RouletteSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC507F92699D3DF00457351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8CC508002699D3DF00457351 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8CC507FC2699D3DF00457351 /* Build configuration list for PBXProject "RouletteSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CC507F82699D3DF00457351;
+			productRefGroup = 8CC508022699D3DF00457351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC508002699D3DF00457351 /* RouletteSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC507FF2699D3DF00457351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC508112699D3E100457351 /* LaunchScreen.storyboard in Resources */,
+				8CC5080E2699D3E100457351 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63A07290968A7FBC95DCF8FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RouletteSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CB4F81EFD937125B30CB2B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RouletteSample/Pods-RouletteSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RouletteSample/Pods-RouletteSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RouletteSample/Pods-RouletteSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC507FD2699D3DF00457351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC5083E269AC99A00457351 /* UIViewController+.swift in Sources */,
+				8CC5082C269ABE4D00457351 /* SettingViewController.swift in Sources */,
+				8CC508212699D4A800457351 /* RouletteViewController.swift in Sources */,
+				8CC50827269A086500457351 /* UIColor+.swift in Sources */,
+				8CC508052699D3DF00457351 /* AppDelegate.swift in Sources */,
+				8CC5082F269AC1C400457351 /* Router.swift in Sources */,
+				8CC50849269AD89900457351 /* Alert.swift in Sources */,
+				8CC508242699E07E00457351 /* PieChartManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CC5080F2699D3E100457351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC508102699D3E100457351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CC508132699D3E100457351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CC508142699D3E100457351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CC508162699D3E100457351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20BE41A9259E6EB839CF534 /* Pods-RouletteSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGJDRSSSYP;
+				INFOPLIST_FILE = RouletteSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.masatotakamura.RouletteSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8CC508172699D3E100457351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7743374F3D9536A87FBFAB5 /* Pods-RouletteSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGJDRSSSYP;
+				INFOPLIST_FILE = RouletteSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.masatotakamura.RouletteSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC507FC2699D3DF00457351 /* Build configuration list for PBXProject "RouletteSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC508132699D3E100457351 /* Debug */,
+				8CC508142699D3E100457351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC508152699D3E100457351 /* Build configuration list for PBXNativeTarget "RouletteSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC508162699D3E100457351 /* Debug */,
+				8CC508172699D3E100457351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC507F92699D3DF00457351 /* Project object */;
+}
